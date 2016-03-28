@@ -1,0 +1,16 @@
+CREATE DATABASE classmate;
+USE classmate;
+
+CREATE TABLE classmate
+(id INT PRIMARY KEY AUTO_INCREMENT,
+first_name VARCHAR(32), 
+last_name VARCHAR(32), 
+hobby VARCHAR(32), 
+birth_year INT,
+mobile VARCHAR(32));
+
+
+
+
+
+DROP DATABASE classmate;
